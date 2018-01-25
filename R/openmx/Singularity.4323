@@ -2,6 +2,7 @@ Bootstrap: shub
 From: neurodebian/neurodebian
 
 %runscript
+mkdir R
 # build OpenM
 cat <<EOF > install.R
 chooseCRANmirror(ind=30)
