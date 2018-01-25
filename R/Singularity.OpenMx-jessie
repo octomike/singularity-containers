@@ -18,6 +18,7 @@ en_US ISO-8859-1
 en_US.ISO-8859-15 ISO-8859-15
 en_US.UTF-8 UTF-8
 EOF
+locale-gen -a
 cat <<EOF > /tmp/install.R
 chooseCRANmirror(ind=30)
 source('http://openmx.psyc.virginia.edu/getOpenMx.R')
